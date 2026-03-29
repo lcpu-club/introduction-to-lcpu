@@ -1,13 +1,14 @@
 ---
 theme: slidev-theme-lcpu
 title: Introduction to LCPU
+transition: fade-out
 zoom: 0.8
 ---
 
 # <span style="font-weight: initial">Introduction to </span><br>Linux Club of Peking University
 
-<br> <span style="line-height: 35px">Presented by **[Holger Huo](https://github.com/HolgerHuo)**</span>
-<br> Oct. 22nd 2025
+<br> <span style="line-height: 35px">Presented by **[Sifer](https://github.com/Chen571428)**</span>
+<br> Mar. 29th 2026
 
 <!--
 aaa
@@ -27,8 +28,10 @@ zoom: 1.2
 - 50+ Core Members Working in Various Projects and Teams
 - Install Party, Seminars/Lectures
 - HPCGame, GeekGame, ...
-- Getting Started (Missing Semester Course from MIT)
-- CLab, PKUTeX, PKUGit, ...
+- CLab, PKUTeX, PKUGit, SigStore ...
+- SigHW, SigMLSys / AI Infra, Rust, Kernel ...
+- Getting Started (Missing Semester Course from MIT) & The **Notebook**
+- LLM From Scratch
 - Visits to Sister Clubs, Uni.s, and Top Businesses in CS
 
 </v-clicks>
@@ -45,7 +48,7 @@ zoom: 1.2
 zoom: 1.2
 ---
 
-# Services
+# LCPU Infrastructures
 
 Infrastructure that Enpowers PKU
 
@@ -54,6 +57,7 @@ Infrastructure that Enpowers PKU
 - CLab: All-in-one Cloud Provider
 - PKUTeX: Online LaTeX Collaboration
 - PKUGit: Secure Git Hosting w/ CI/CD Pipelines
+- SigStore: **PetaBytes** Level S3 / WebDev Storage Provider
 
 </v-clicks>
 
@@ -93,7 +97,7 @@ zoom: 1.2
 zoom: 1.2
 ---
 
-# Services: CLab (In the Future)
+# Services: CLab v2 [WIP]
 
 <v-clicks>
 
@@ -103,7 +107,7 @@ zoom: 1.2
   - HPC acceleration
   - Gaming
 - High-Performance RDMA Network
-- DAOS Distributed High-Performant Storage
+- DAOS Distributed High-Performant Storage / Ceph
 - DOCA-Powered Bare-Metal Virtualization
 
 </v-clicks>
@@ -151,6 +155,74 @@ zoom: 1.2
 </v-clicks>
 
 ---
+zoom: 1.2
+---
+
+# LCPU Competitions
+
+<v-clicks>
+
+- HPCGame
+  - Co-Hosted with Weiming HPC Team
+  - Entry-Level High Performence Competition Competition
+- GeekGame
+  - Co-Hosted with PKUCC Team & Tsinghua Univ.
+  - Entry-Level CTF Competition
+
+</v-clicks>
+
+---
+zoom: 1.2
+---
+
+# Competitions: HPCGame
+
+<v-clicks>
+
+- Entry-level Competition Featuring Parallelizing Programs
+- Encourage More Students to Enter the Field of HPC
+- In Deep Collaboration with Weiming HPC Team
+- Universal AutoJudge Platform Built by LCPU
+- 0th to 2th: Thousands of Students from across China and the Globe
+</v-clicks>
+
+---
+zoom: 1.2
+---
+
+<Image src="/hpcgame.png" caption="AOI Platform for HPCGame" />
+
+---
+zoom: 1.2
+---
+
+# LCPU Events
+
+<v-clicks>
+
+- Install Party
+- NVIDIA GTC Watch Party
+- JetBrains Techniques Salon
+- Visits to AMD
+- Nights of Distros
+- ...
+
+</v-clicks>
+
+---
+zoom: 1.2
+---
+
+# LCPU Programmes
+- LCPU Getting Started
+- SigHW (FPGA, DMA, etc.)
+- SigMLSys / AI Infra
+- SigAgent
+- The **Notebook**
+- LLM From Scratch (CS336 From Stanford, 200+ participant)
+
+
+---
 zoom: 1.1
 layout: two-cols-header
 ---
@@ -173,27 +245,33 @@ layout: two-cols-header
 ![](/lgs-bilibili.png)
 
 <span style="font-size: smaller; text-align: center">LGS: Stats on Chinese Video Sharing Platform Bilibili</span>
+---
+zoom: 1.2
+---
+
+# LCPU Living!
+- LCPU Wechat Group (100+ DAU, Rust, Arch, ~~Deepseek V4😡~~)
+- LCPU 吃喝玩乐!
+- LCPU Cooking!
+
+---
+zoom: 1.2
+---
+# LCPU Core
+- Operations Department
+- Technical Department
+- Learning Department
+- Ops Team
 
 ---
 zoom: 1.2
 ---
 
-# Competitions: HPCGame
+# Thanks
+Thanks Wizard Quant for Sponsoring us!
 
-<v-clicks>
+![alt text](/wizard-quant.png)
 
-- Entry-level Competition Featuring Parallelizing Programs
-- Encourage More Students to Enter the Field of HPC
-- In Deep Collaboration with Weiming HPC Team
-- Universal AutoJudge Platform Built by LCPU
-- 0th to 2th: Thousands of Students from across China and the Globe
-</v-clicks>
-
----
-zoom: 1.2
----
-
-<Image src="/hpcgame.png" caption="AOI Platform for HPCGame" />
 
 ---
 layout: center
