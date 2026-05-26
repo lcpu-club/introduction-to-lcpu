@@ -193,6 +193,44 @@ zoom: 1.2
 <Image src="/hpcgame.png" caption="AOI Platform for HPCGame" />
 
 ---
+zoom: 1.0
+layout: two-cols-header
+---
+
+# Weiming HPC Team Achievements
+
+LCPU's Long-Time Partner — Founded 2016, Celebrating 10th Anniversary in 2026
+
+::left::
+
+<v-clicks>
+
+- **2016** · SC16 — 6th (Salt Lake City)
+- **2017** · SC17 — 4th (Denver)
+- **2019** · ASC19 — Gold Medal (Dalian)
+- **2019** · SC19 — Finalist (Denver)
+- **2020** · SC20 — 2nd Place (Online)
+- **2021** · ASC20-21 — Gold Medal (SUSTech)
+- **2023** · ASC23 — **Grand Champion** (Hefei)
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **2023** · SC23 — 2nd Place (Denver)
+- **2024** · ASC24 — **Grand Champion** (Shanghai)
+- **2024** · SC24 — 2nd Place (Atlanta)
+- **2025** · ASC25 — 2nd Place (Qinghai)
+- **2025** · IndySCC25 — 2nd Place (Online)
+- **2026** · ASC26 — **Grand Champion** (Wuxi)
+
+</v-clicks>
+
+<p style="text-align: center; color: grey; font-size: smaller; margin-top: 15px">10 Years · 10 Generations · 14 Competitions · 3× ASC Grand Champion</p>
+
+---
 zoom: 1.2
 ---
 
