@@ -193,6 +193,12 @@ zoom: 1.2
 <Image src="/hpcgame.png" caption="AOI Platform for HPCGame" />
 
 ---
+zoom: 1.2
+---
+
+<Image src="/asc.jpg" caption="ASC26 — Grand Champion (Wuxi, May 2026)" />
+
+---
 zoom: 1.0
 layout: two-cols-header
 ---
@@ -280,7 +286,7 @@ layout: two-cols-header
 
 ::right::
 
-![](/lgs-bilibili.png)
+<img :src="'/lgs-bilibili.png'" />
 
 <span style="font-size: smaller; text-align: center">LGS: Stats on Chinese Video Sharing Platform Bilibili</span>
 ---
@@ -308,7 +314,7 @@ zoom: 1.2
 # Thanks
 Thanks Wizard Quant for Sponsoring us!
 
-![alt text](/wizard-quant.png)
+<img :src="'/wizard-quant.png'" alt="Wizard Quant" />
 
 
 ---
