@@ -237,6 +237,90 @@ LCPU's Long-Time Partner — Founded 2016, Celebrating 10th Anniversary in 2026
 <p style="text-align: center; color: grey; font-size: smaller; margin-top: 15px">10 Years · 10 Generations · 14 Competitions · 3× ASC Grand Champion</p>
 
 ---
+zoom: 1.1
+layout: two-cols-header
+---
+
+# <span style="font-weight: bold">AI Infra Study Group · Logistics</span>
+
+::left::
+
+<v-clicks>
+
+- **Seminar Format**: 1-2 sessions weekly; a group of students present on a specific topic
+- **High Standards**: 20-40 min per session; code, handouts, and exercises required (no vibe-only)
+- **Multi-channel Publishing**: Videos on Bilibili & YouTube; documents on WeChat, Web, hpcwiki & Zhihu
+- **Guest Lectures**: Guest talks by Weiming HPC team seniors and sponsor engineers
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **Requirements**: Normal participants present $\ge 1$ time; PKUSC core members $\ge 2$ times
+- **Compute & Support**: GPU development nodes sponsored; exercises integrated into HPCGame auto-judge
+- **Incentives & Rewards**: 300-600 RMB compensations per lecture based on peer evaluations
+
+</v-clicks>
+
+---
+zoom: 1.1
+---
+
+# <span style="font-weight: bold">AI Infra Topics: GPU Programming</span>
+
+<v-clicks>
+
+- **GPU Architecture & CUDA Programming** (Sessions 01-04)
+  - Hardware architecture, programming models, CUDA ecosystem, CUB and parallel algorithms
+- **Hardware-Aware Optimizations** (Sessions 05-07)
+  - Warp divergence, bank conflicts, memory hierarchy, TMA, Tensor Cores, and computing bounds
+- **Kernel Writing & Tuning** (Sessions 08-10)
+  - Speed of Light, Profiling, Fusing, Tiling, Soft pipeline, and Warp specialization
+- **Domain-Specific Languages (DSL)** (Sessions 11-14)
+  - Triton programming, TileLang primitives, CuTeDSL, and trading off in DSL
+- **Advanced Kernel Design** (Sessions 15-18)
+  - Ampere/Hopper/Blackwell features; SoL GEMM, Attention (MHA/MLA), and MoE optimizations
+
+</v-clicks>
+
+---
+zoom: 1.0
+layout: two-cols-header
+---
+
+# <span style="font-weight: bold">AI Infra Topics: Systems & Compilation</span>
+
+::left::
+
+<v-clicks>
+
+- **ML Compiler & Compilation**
+  - **Auto-tuning**: Triton, TileLang, TVM, AutoTVM, Ansor
+  - **Graph Optimizations**: TASO, PET
+  - **Code Generation**: DSL to cubin compile pipeline
+- **Cluster Communication**
+  - **High-speed Network**: TCP/IP to RDMA (IB, RoCE, iWarp)
+  - **Communication Libraries**: NCCL/UCCL internals, torch.distributed primitives
+  - **Co-design**: Writing custom communication Kernels
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **LLM Training & Inference & RL**
+  - **Distributed Training**: DP, ZeRO-1/2/3, FSDP, TP, PP, SP, CP, EP
+  - **High-performance Serving**: Paged Attention, PD Separation, Continuous Batching, Speculative Decoding
+  - **RL Frameworks**: verl, ROLL, multi-framework coordination
+- **Generative AI Algorithm Foundation**
+  - Transformers/Diffusion, Scaling Laws/MoE, Long Context, Reasoning models
+
+</v-clicks>
+
+---
 zoom: 1.2
 ---
 
@@ -289,6 +373,7 @@ layout: two-cols-header
 <img :src="'/lgs-bilibili.png'" />
 
 <span style="font-size: smaller; text-align: center">LGS: Stats on Chinese Video Sharing Platform Bilibili</span>
+
 ---
 zoom: 1.2
 ---
