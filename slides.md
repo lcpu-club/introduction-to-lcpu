@@ -350,16 +350,6 @@ zoom: 1.2
 - Ops Team
 
 ---
-zoom: 1.2
----
-
-# Thanks
-Thanks Wizard Quant for Sponsoring us!
-
-<img :src="'/wizard-quant.png'" alt="Wizard Quant" />
-
-
----
 layout: center
 ---
 
